@@ -16,3 +16,5 @@ print(num4)
 
 num5=num6= 56
 print(num5,num6)
+
+print(num7)=89
