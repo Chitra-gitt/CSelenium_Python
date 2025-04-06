@@ -7,8 +7,14 @@ Looping statements: Statements which executes a code multiple times until a requ
 
 Types-
 1) while loop-
+
+a. initialising of variable
+b.while condition>>while block
+c. increment/decrement
+
+2) for loop- iterate over collections/range
+
 a. 
-2) for loop
 
 Loop control statement:
 1. Break statement- stops loop execution at one point of time
@@ -43,7 +49,7 @@ while True:
     if e=='N':
         break
 
- '''
+ 
  
  
  
@@ -55,3 +61,126 @@ while count<=100:
     print(count)
     count+=1
      
+     
+#print (range(10))
+
+for n in range(1,100):
+    if n==50:
+     continue
+    print(n)
+    
+    
+    
+for n in range(1,100):
+    if n%2==0: #even numbers
+    #if n%2==1: #odd numbers
+        if n==90:
+            continue
+        print(n)
+    
+    
+for n in range(0,100,2):
+    print (n)   
+    
+    
+    
+for n in range(5):
+    print("*", +1)
+    
+    
+
+for n in range(1,6):
+
+    for m in range(6-n):
+        print("*", end=" ") #end is used to type in next line
+        
+    print()
+    
+    o/p-
+    
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+
+    
+for n in range(6,0,-1):
+
+    for m in range(n):
+        print("*", end=" ") #end is used to type in next line
+        
+    print()
+    
+    o/p-
+    
+* * * * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+No. of stars(5)=stop value-row no.
+   
+for n in range(1,6):
+
+    for m in range(n):
+        print(" * ", end=" ") #end is used to type in next line
+        
+print()
+    
+
+  #UPWARD RIGHT ANGLE TRIANGLE
+   
+for n in range(1,6):
+
+    for m in range(n):
+        print("*", end=" ") #end is used to type in next line
+        
+    print()
+   
+   
+   #DOWNWARD RIGHT ANGLE TRIANGLE
+for n in range(1,6):
+
+    for m in range(6-n):
+        print("*", end=" ") #end is used to type in next line
+        
+    print()
+   
+  
+    #UPWARD PYRAMID
+    
+for n in range(1,6):
+    for m in range(6-n):
+        print("", end=" ") 
+        
+    for i in range(n):
+        print("*", end=" ")
+        
+    print()
+   
+   o/p-
+   
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+
+   '''
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+    
