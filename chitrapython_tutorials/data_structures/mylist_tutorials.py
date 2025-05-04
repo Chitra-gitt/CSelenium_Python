@@ -147,8 +147,7 @@ for q in p:
 e=["Bhavani", "Chitra", "Sandeep", "Sanjana", "Vivek", "Yogitha"]
 
 for f in e:
-   
-   if 'a' in f:
+    if 'a' in f:
     print(f)
     #print(f)
 
