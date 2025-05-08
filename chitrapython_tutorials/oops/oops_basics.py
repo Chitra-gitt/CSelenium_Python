@@ -13,6 +13,35 @@ Constructor(__init__): It is a magic method used to construct an object,
 by initializing it with specific values while creating the object.
 
 
+Method Resolution Order(mro): 
+
+Constructor(__init__): 
+
+- It is a magic method used to construct an Object by initializing it with
+specific values/ features being passed while creating the object.
+
+- It is not mandatory to define a constructor. But when constructor is not defined interpretor 
+will have its own constructor created
+
+- Calling the constructor: 
+    > Constructor is called implicitly during the creation of object
+    > Still we can call constructor explicitly
+
+
+Types of variables:
+
+1) Method variables/local variable
+2) object variable/instance variable
+3) Class variable/static variable 
+
+Major concepts of OOPS:
+
+1)inheritance
+2)Polymorphism
+3)Abstraction
+4)Encapsulation
+
+
 '''
 
 
@@ -40,4 +69,12 @@ obj2.planets()
 print(type(obj2))
 
     
+    
+class Car:
+    def move_forward(self):
+        print("car is moving forward")
+        
+car1=Car()
+# car1.move_forward()
+# print(dir(car1))   
 
