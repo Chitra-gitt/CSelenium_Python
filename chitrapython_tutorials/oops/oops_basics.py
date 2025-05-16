@@ -45,7 +45,7 @@ Major concepts of OOPS:
 '''
 
 
-class SolarSystem(): 
+class SolarSystem():  '''defining class SolarSystem'''
     #Camel casing word- 1st letter is capital of each word
     def __init__(self,name):   
         #__ magic method is to identify the parameters and arguments
